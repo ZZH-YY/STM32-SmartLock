@@ -106,7 +106,7 @@
 
 void USART2_Config(void);
 void Usart2_SendByte(uint8_t ch);
-void UART_DM_ReportData(unsigned char data[]);
+//void UART_DM_ReportData(unsigned char data[]);
 
 
 

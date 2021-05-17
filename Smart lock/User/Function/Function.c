@@ -34,7 +34,7 @@ void Communication_Decode(void)
 			Communication_Decode_flag=0;
 				switch(buffer[0])
         {
-					case 0x00:
+					case 0x01:
 						LOCK_Open;      //开门
 						UART_DM_ReportData(Status_0);//向串口2发送“已开锁”数据
 					  LED_GPIO_ON;    //开灯
