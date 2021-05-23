@@ -35,7 +35,7 @@
 #define  DEBUG_USARTx                   USART2
 #define  DEBUG_USART_CLK                RCC_APB1Periph_USART2
 #define  DEBUG_USART_APBxClkCmd         RCC_APB1PeriphClockCmd
-#define  DEBUG_USART_BAUDRATE           9600
+#define  DEBUG_USART_BAUDRATE           115200
 
 //// USART GPIO Òý½Åºê¶¨Òå
 #define  DEBUG_USART_GPIO_CLK           (RCC_APB2Periph_GPIOA)
